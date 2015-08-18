@@ -2,7 +2,7 @@ development:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: postgresql
+  username: pguser
   password: 123
   database: buzzer_development
 
@@ -10,6 +10,6 @@ test:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: postgresql
+  username: pguser
   password: 123
   database: buzzer_test
