@@ -1,15 +1,17 @@
-development:
+default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: pguser
-  password: 1234
-  database: buzzer_development
+  username: semcomp
+  password: 123
+  host: localhost
+  port: 5432
+
+development:
+  <<: *default
+  database: buzzer2_development
 
 test:
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
-  username: pguser
-  password: 1234
-  database: buzzer_test
+  <<: *default
+  database: buzzer2_test
+
