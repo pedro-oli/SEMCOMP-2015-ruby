@@ -19,7 +19,6 @@ ActiveRecord::Schema.define(version: 20150818200746) do
   create_table "products", force: :cascade do |t|
     t.string   "name"
     t.integer  "price"
-    t.integer  "amount"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
