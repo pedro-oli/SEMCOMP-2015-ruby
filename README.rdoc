@@ -3,6 +3,6 @@ Ruby on Rails Minicourse!
 Things to remember:
   - Install RVM
   - Install postgres
-  - Did everything on Ubuntu
+  - Everything was done on Ubuntu
 
 Minicourse administered by Felipe Navas, IT Manager at Runrun.it
